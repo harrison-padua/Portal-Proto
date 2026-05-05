@@ -22,6 +22,12 @@ import { ClientStore } from '../core/services/client-store';
         <nav class="flex-1 overflow-y-auto p-3">
           <ul class="menu menu-sm w-full gap-1">
             <li>
+              <a routerLink="/dashboard" routerLinkActive="menu-active">
+                <span class="material-icons text-lg">dashboard</span>
+                Dashboard
+              </a>
+            </li>
+            <li>
               <a routerLink="/" routerLinkActive="menu-active" [routerLinkActiveOptions]="{ exact: true }">
                 <span class="material-icons text-lg">people</span>
                 Clients
